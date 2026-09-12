@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    // задача Begin36
+    // декларація змінних
+    double L, D;
+    const double PI = 3.14;
+
+    // введення змінної
+    cout << "Begin36" << endl;
+    cout << "Enter circle length: ";
+    cin >> L;
+
+    // розрахунок результату
+    D = L / PI;
+
+    // вивід результату
+    cout << "Circle diameter: " << D << endl;
+
+    return 0;
+}
