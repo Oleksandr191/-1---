@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    // задача Begin37
+    // декларація змінних
+    double a, b, H;
+
+    // введення змінних
+    cout << "Begin37" << endl;
+
+    cout << "Enter number a: ";
+    cin >> a;
+
+    cout << "Enter number b: ";
+    cin >> b;
+
+    // розрахунок результату
+    H = 2 * a * b / (a + b);
+
+    // вивід результату
+    cout << "Harmonic mean: " << H << endl;
+
+    return 0;
+}
